@@ -1,4 +1,4 @@
-# CarePlus Journey 🌱
+# CarePlus Journey 
 
 Plataforma web de gamificação da saúde preventiva da **Care Plus** — projeto acadêmico do Challenge FIAP 2026.
 
@@ -7,7 +7,7 @@ Plataforma web de gamificação da saúde preventiva da **Care Plus** — projet
 
 ---
 
-## 📌 Sobre o projeto
+##  Sobre o projeto
 
 Aplicação web responsiva construída em **React + Vite**, que transforma hábitos de saúde preventiva (caminhadas, hidratação, sono, atividade física) em uma jornada gamificada com missões, pontos, badges, ranking opt-in e a evolução da mascote **Flora**.
 
@@ -15,7 +15,7 @@ Esta entrega cobre as duas disciplinas web do Challenge: **Web Development** e *
 
 ---
 
-## 🗂️ Estrutura do repositório
+##  Estrutura do repositório
 
 ```
 careplus-journey/
@@ -55,9 +55,9 @@ careplus-journey/
 
 ---
 
-## ✅ Cobertura das disciplinas
+##  Cobertura das disciplinas
 
-### 🖥️ Web Development — *Construindo Aplicações React Dinâmicas*
+###  Web Development — *Construindo Aplicações React Dinâmicas*
 
 | Exigência da disciplina | Onde está implementada |
 |---|---|
@@ -69,7 +69,7 @@ careplus-journey/
 | **Autenticidade e Originalidade** | Mascote "Flora", jornadas temáticas próprias, design system CarePlus |
 | **Versionamento com GitHub** | `.gitignore` configurado, estrutura limpa para `git init` + push |
 
-### 🎨 Front-End Design — *MVP Final*
+###  Front-End Design — *MVP Final*
 
 | Exigência da disciplina | Onde está implementada |
 |---|---|
@@ -81,7 +81,7 @@ careplus-journey/
 
 ---
 
-## 🚀 Como executar
+##  Como executar
 
 ```bash
 npm install
@@ -97,7 +97,7 @@ npm run preview      # pré-visualiza o build de produção
 
 ---
 
-## ☁️ Deploy (Vercel)
+##  Deploy (Vercel)
 
 1. Faça push do repositório para o GitHub.
 2. Importe o repositório na Vercel.
@@ -106,6 +106,6 @@ npm run preview      # pré-visualiza o build de produção
 
 ---
 
-## 📜 Licença
+##  Licença
 
 Projeto acadêmico — FIAP, Challenge Care Plus 2026.
