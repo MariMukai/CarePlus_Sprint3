@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "endpoint": "/api/rewards.json",
+    "description": "Catálogo de recompensas conversíveis em benefícios CarePlus, itens virtuais e prêmios físicos.",
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-15"
+  },
+  "data": [
+    {
+      "id": "coroa",
+      "type": "Virtual",
+      "icon": "👑",
+      "title": "Coroa Dourada da Flora",
+      "cost": 450,
+      "description": "Personalização visual para o avatar.",
+      "available": true
+    },
+    {
+      "id": "capa",
+      "type": "Virtual",
+      "icon": "🦸",
+      "title": "Capa de Herói",
+      "cost": 700,
+      "description": "Acessório especial para celebrar constância.",
+      "available": true
+    },
+    {
+      "id": "consulta",
+      "type": "CarePlus",
+      "icon": "🩺",
+      "title": "Consulta de orientação",
+      "cost": 1200,
+      "description": "Benefício simulado para cuidado preventivo.",
+      "available": true
+    },
+    {
+      "id": "farmacia",
+      "type": "CarePlus",
+      "icon": "💊",
+      "title": "Desconto em farmácia",
+      "cost": 800,
+      "description": "Benefício físico simulado em rede parceira.",
+      "available": true
+    },
+    {
+      "id": "miniatura",
+      "type": "Física",
+      "icon": "🌱",
+      "title": "Miniatura da Flora",
+      "cost": 1600,
+      "description": "Recompensa especial de conclusão de jornada.",
+      "available": true
+    },
+    {
+      "id": "spa",
+      "type": "CarePlus",
+      "icon": "💆",
+      "title": "Sessão de bem-estar",
+      "cost": 1400,
+      "description": "Benefício de relaxamento na rede credenciada.",
+      "available": true
+    }
+  ]
+}

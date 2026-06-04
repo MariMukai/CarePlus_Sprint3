@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "endpoint": "/api/journeys.json",
+    "description": "Catálogo de jornadas temáticas de saúde preventiva da plataforma CarePlus Journey.",
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-15"
+  },
+  "data": [
+    {
+      "id": "emagrecimento",
+      "icon": "🥗",
+      "title": "Emagrecimento Saudável",
+      "description": "Hábitos alimentares, movimento e acompanhamento preventivo com foco em constância.",
+      "tags": ["Nutrição", "Movimento", "30 dias"],
+      "professional": "Nutricionista",
+      "color": "#a4ca4a",
+      "durationDays": 30,
+      "difficulty": "intermediario"
+    },
+    {
+      "id": "vida-ativa",
+      "icon": "🏃",
+      "title": "Vida Ativa",
+      "description": "Desafios progressivos de passos, caminhada e condicionamento para ganhar disposição.",
+      "tags": ["Exercício", "Passos", "21 dias"],
+      "professional": "Clínico geral",
+      "color": "#1c9770",
+      "durationDays": 21,
+      "difficulty": "iniciante"
+    },
+    {
+      "id": "bem-estar",
+      "icon": "🧘",
+      "title": "Bem-estar Mental",
+      "description": "Rotina de sono, pausas, respiração e mindfulness com incentivo acolhedor.",
+      "tags": ["Sono", "Mindfulness", "28 dias"],
+      "professional": "Psicólogo",
+      "color": "#7ad1c3",
+      "durationDays": 28,
+      "difficulty": "iniciante"
+    },
+    {
+      "id": "diabetes",
+      "icon": "💧",
+      "title": "Controle da Diabetes",
+      "description": "Registro de hábitos, atividade física e orientação de cuidado preventivo contínuo.",
+      "tags": ["Glicemia", "Rotina", "45 dias"],
+      "professional": "Endocrinologista",
+      "color": "#4285f4",
+      "durationDays": 45,
+      "difficulty": "avancado"
+    },
+    {
+      "id": "cardio",
+      "icon": "❤️",
+      "title": "Saúde Cardiovascular",
+      "description": "Metas leves e progressivas para apoiar pressão, movimentação e acompanhamento médico.",
+      "tags": ["Cardio", "Pressão", "30 dias"],
+      "professional": "Cardiologista",
+      "color": "#ff6b88",
+      "durationDays": 30,
+      "difficulty": "intermediario"
+    },
+    {
+      "id": "personalizada",
+      "icon": "✨",
+      "title": "Jornada Personalizada",
+      "description": "Monte uma experiência adaptada ao seu objetivo com metas customizadas e recompensas.",
+      "tags": ["Customizável", "Opt-in"],
+      "professional": "Profissional indicado pela jornada",
+      "color": "#93cb52",
+      "durationDays": null,
+      "difficulty": "personalizado"
+    }
+  ]
+}

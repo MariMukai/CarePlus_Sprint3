@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "endpoint": "/api/leaderboard.json",
+    "description": "Ranking público de beneficiários que optaram (opt-in) por aparecer.",
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-15"
+  },
+  "data": [
+    { "position": 1, "name": "Ana Clara", "points": 12560, "emoji": "👩", "trend": "+3", "stage": "🌴", "stageName": "Lenda da Saúde" },
+    { "position": 2, "name": "Carlos Eduardo", "points": 10890, "emoji": "👨", "trend": "+1", "stage": "🌲", "stageName": "Campeão" },
+    { "position": 3, "name": "Você", "points": 9240, "emoji": "🌳", "trend": "+2", "current": true, "stage": "🌳", "stageName": "Guerreiro" },
+    { "position": 4, "name": "Dona Sônia", "points": 7890, "emoji": "👵", "trend": "-1", "stage": "🌳", "stageName": "Guerreiro" },
+    { "position": 5, "name": "Seu Pedro", "points": 6530, "emoji": "👴", "trend": "-1", "stage": "🌳", "stageName": "Guerreiro" },
+    { "position": 6, "name": "Júlia Mendes", "points": 5410, "emoji": "👧", "trend": "+5", "stage": "🌿", "stageName": "Explorador" },
+    { "position": 7, "name": "Rafael Santos", "points": 4280, "emoji": "🧔", "trend": "+2", "stage": "🌿", "stageName": "Explorador" },
+    { "position": 8, "name": "Letícia Alves", "points": 3150, "emoji": "👩‍🦱", "trend": "-2", "stage": "🌿", "stageName": "Explorador" }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "endpoint": "/api/badges.json",
+    "description": "Catálogo de badges e conquistas desbloqueáveis pelo usuário.",
+    "version": "1.0.0",
+    "lastUpdated": "2026-05-15"
+  },
+  "data": [
+    {
+      "id": "b1",
+      "icon": "🌅",
+      "title": "Primeira Semana Ativa",
+      "unlocked": true,
+      "description": "7 dias consecutivos de atividade"
+    },
+    {
+      "id": "b2",
+      "icon": "💧",
+      "title": "Hidratação Master",
+      "unlocked": true,
+      "description": "10 dias atingindo a meta de água"
+    },
+    {
+      "id": "b3",
+      "icon": "👟",
+      "title": "10K Passos",
+      "unlocked": true,
+      "description": "Atingiu 10.000 passos em um dia"
+    },
+    {
+      "id": "b4",
+      "icon": "🔥",
+      "title": "Streak 30 dias",
+      "unlocked": false,
+      "description": "Mantenha 30 dias consecutivos"
+    },
+    {
+      "id": "b5",
+      "icon": "🏆",
+      "title": "Jornada Completa",
+      "unlocked": false,
+      "description": "Conclua uma jornada inteira"
+    },
+    {
+      "id": "b6",
+      "icon": "🌟",
+      "title": "Lenda da Saúde",
+      "unlocked": false,
+      "description": "Atinja o nível máximo"
+    }
+  ]
+}

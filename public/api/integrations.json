@@ -1,0 +1,212 @@
+{
+  "_meta": {
+    "resource": "integrations",
+    "version": "1.0",
+    "description": "Atividades importadas de plataformas de fitness externas. Na Sprint 1/2 estes dados sao um mock servido localmente pelo Vite, no formato que cada API oficial retornaria. Na Sprint 3 (RF-18), services/api.js troca a URL local pelo endpoint OAuth real de cada provedor sem alterar a UI.",
+    "providers": {
+      "strava": {
+        "label": "Strava",
+        "api": "Strava API v3 — GET /api/v3/athlete/activities",
+        "auth": "OAuth 2.0 (scope: activity:read)",
+        "docs": "https://developers.strava.com/docs/reference/"
+      },
+      "googlefit": {
+        "label": "Google Fit / Health Connect",
+        "api": "Health Connect (on-device) — substitui a Fitness REST API descontinuada",
+        "auth": "OAuth 2.0 (scope: fitness.activity.read)",
+        "docs": "https://developer.android.com/health-and-fitness/guides/health-connect"
+      },
+      "applehealth": {
+        "label": "Apple Health",
+        "api": "HealthKit — sem API web; export simulado no formato HKWorkout",
+        "auth": "Autorizacao on-device (somente leitura)",
+        "docs": "https://developer.apple.com/documentation/healthkit"
+      },
+      "fitbit": {
+        "label": "Fitbit",
+        "api": "Fitbit Web API — GET /1/user/-/activities",
+        "auth": "OAuth 2.0 (scope: activity)",
+        "docs": "https://dev.fitbit.com/build/reference/web-api/"
+      },
+      "garmin": {
+        "label": "Garmin Connect",
+        "api": "Garmin Health API — Activity Summaries",
+        "auth": "OAuth 1.0a",
+        "docs": "https://developer.garmin.com/"
+      },
+      "samsung": {
+        "label": "Samsung Health",
+        "api": "Samsung Health Data SDK",
+        "auth": "Autorizacao on-device (somente leitura)",
+        "docs": "https://developer.samsung.com/health"
+      }
+    }
+  },
+  "data": [
+    {
+      "provider": "strava",
+      "external_id": "str_9921044501",
+      "type": "Run",
+      "name": "Corrida matinal no parque",
+      "start_date": "2026-05-30T06:42:00-03:00",
+      "distance_m": 5180,
+      "moving_time_s": 1602,
+      "elapsed_time_s": 1685,
+      "average_speed_ms": 3.23,
+      "average_heartrate": 148,
+      "total_elevation_gain_m": 34,
+      "steps": null,
+      "calories": 412
+    },
+    {
+      "provider": "strava",
+      "external_id": "str_9921044502",
+      "type": "Ride",
+      "name": "Pedalada ate o trabalho",
+      "start_date": "2026-05-29T08:05:00-03:00",
+      "distance_m": 12400,
+      "moving_time_s": 2280,
+      "elapsed_time_s": 2480,
+      "average_speed_ms": 5.44,
+      "average_heartrate": 121,
+      "total_elevation_gain_m": 88,
+      "steps": null,
+      "calories": 356
+    },
+    {
+      "provider": "strava",
+      "external_id": "str_9921044503",
+      "type": "Run",
+      "name": "Tiro de velocidade (DADO SUSPEITO)",
+      "start_date": "2026-05-28T19:10:00-03:00",
+      "distance_m": 42195,
+      "moving_time_s": 600,
+      "elapsed_time_s": 600,
+      "average_speed_ms": 70.3,
+      "average_heartrate": 122,
+      "total_elevation_gain_m": 5,
+      "steps": null,
+      "calories": 980
+    },
+    {
+      "provider": "googlefit",
+      "external_id": "gf_seg_0001",
+      "type": "Walking",
+      "name": "Passos do dia",
+      "start_date": "2026-05-30T00:00:00-03:00",
+      "distance_m": 6900,
+      "moving_time_s": 5400,
+      "elapsed_time_s": 86400,
+      "average_speed_ms": 1.27,
+      "average_heartrate": null,
+      "total_elevation_gain_m": null,
+      "steps": 9120,
+      "calories": 298
+    },
+    {
+      "provider": "googlefit",
+      "external_id": "gf_seg_0002",
+      "type": "Workout",
+      "name": "Minutos ativos — sessao funcional",
+      "start_date": "2026-05-29T18:30:00-03:00",
+      "distance_m": 0,
+      "moving_time_s": 1800,
+      "elapsed_time_s": 1800,
+      "average_speed_ms": 0,
+      "average_heartrate": 132,
+      "total_elevation_gain_m": null,
+      "steps": 0,
+      "calories": 210
+    },
+    {
+      "provider": "googlefit",
+      "external_id": "gf_seg_0003",
+      "type": "Walking",
+      "name": "Passos (LEITURA IMPLAUSIVEL)",
+      "start_date": "2026-05-27T00:00:00-03:00",
+      "distance_m": 60000,
+      "moving_time_s": 7200,
+      "elapsed_time_s": 86400,
+      "average_speed_ms": 8.33,
+      "average_heartrate": null,
+      "total_elevation_gain_m": null,
+      "steps": 98000,
+      "calories": 2400
+    },
+    {
+      "provider": "applehealth",
+      "external_id": "hk_workout_AA01",
+      "type": "HKWorkoutActivityTypeRunning",
+      "name": "Corrida (Apple Watch)",
+      "start_date": "2026-05-30T07:15:00-03:00",
+      "distance_m": 4020,
+      "moving_time_s": 1380,
+      "elapsed_time_s": 1380,
+      "average_speed_ms": 2.91,
+      "average_heartrate": 151,
+      "total_elevation_gain_m": 22,
+      "steps": 5240,
+      "calories": 320
+    },
+    {
+      "provider": "applehealth",
+      "external_id": "hk_workout_AA02",
+      "type": "HKWorkoutActivityTypeYoga",
+      "name": "Yoga matinal",
+      "start_date": "2026-05-29T06:30:00-03:00",
+      "distance_m": 0,
+      "moving_time_s": 1500,
+      "elapsed_time_s": 1500,
+      "average_speed_ms": 0,
+      "average_heartrate": 88,
+      "total_elevation_gain_m": null,
+      "steps": 0,
+      "calories": 95
+    },
+    {
+      "provider": "fitbit",
+      "external_id": "fb_log_70011",
+      "type": "Walk",
+      "name": "Caminhada da tarde",
+      "start_date": "2026-05-30T16:20:00-03:00",
+      "distance_m": 3100,
+      "moving_time_s": 2400,
+      "elapsed_time_s": 2400,
+      "average_speed_ms": 1.29,
+      "average_heartrate": 104,
+      "total_elevation_gain_m": 12,
+      "steps": 4180,
+      "calories": 165
+    },
+    {
+      "provider": "garmin",
+      "external_id": "gc_act_55230",
+      "type": "running",
+      "name": "Treino intervalado",
+      "start_date": "2026-05-29T19:00:00-03:00",
+      "distance_m": 6500,
+      "moving_time_s": 2100,
+      "elapsed_time_s": 2280,
+      "average_speed_ms": 3.10,
+      "average_heartrate": 159,
+      "total_elevation_gain_m": 45,
+      "steps": 7300,
+      "calories": 540
+    },
+    {
+      "provider": "samsung",
+      "external_id": "sh_sess_3320",
+      "type": "walking",
+      "name": "Passos Galaxy Watch",
+      "start_date": "2026-05-30T00:00:00-03:00",
+      "distance_m": 5600,
+      "moving_time_s": 4800,
+      "elapsed_time_s": 86400,
+      "average_speed_ms": 1.17,
+      "average_heartrate": null,
+      "total_elevation_gain_m": null,
+      "steps": 7450,
+      "calories": 240
+    }
+  ]
+}
